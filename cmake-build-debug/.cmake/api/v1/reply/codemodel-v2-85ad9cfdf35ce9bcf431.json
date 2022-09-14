@@ -16,7 +16,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -32,7 +34,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -47,9 +51,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Queue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue-Debug-74380c1a4fc834ef6190.json",
+					"name" : "Queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "SequenceList::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-SequenceList-Debug-3601941e1a4b51b5fac7.json",
 					"name" : "SequenceList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack-Debug-c06fcbbc589551b21172.json",
+					"name" : "Stack",
 					"projectIndex" : 0
 				}
 			]

@@ -106,6 +106,72 @@ build SequenceList.exe: C_EXECUTABLE_LINKER__SequenceList_Debug CMakeFiles/Seque
   TARGET_IMPLIB = libSequenceList.dll.a
   TARGET_PDB = SequenceList.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue
+
+
+#############################################
+# Order-only phony target for Queue
+
+build cmake_object_order_depends_target_Queue: phony || CMakeFiles/Queue.dir
+
+build CMakeFiles/Queue.dir/LinearList/Queue.c.o: C_COMPILER__Queue_Debug /cygdrive/c/Users/沈原灏/Desktop/大二上的资料/数据结构/DSA/LinearList/Queue.c || cmake_object_order_depends_target_Queue
+  DEP_FILE = CMakeFiles/Queue.dir/LinearList/Queue.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/Queue.dir
+  OBJECT_FILE_DIR = CMakeFiles/Queue.dir/LinearList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue
+
+
+#############################################
+# Link the executable Queue.exe
+
+build Queue.exe: C_EXECUTABLE_LINKER__Queue_Debug CMakeFiles/Queue.dir/LinearList/Queue.c.o
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--enable-auto-import
+  OBJECT_DIR = CMakeFiles/Queue.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Queue.exe
+  TARGET_IMPLIB = libQueue.dll.a
+  TARGET_PDB = Queue.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Order-only phony target for Stack
+
+build cmake_object_order_depends_target_Stack: phony || CMakeFiles/Stack.dir
+
+build CMakeFiles/Stack.dir/LinearList/Stack.c.o: C_COMPILER__Stack_Debug /cygdrive/c/Users/沈原灏/Desktop/大二上的资料/数据结构/DSA/LinearList/Stack.c || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles/Stack.dir/LinearList/Stack.c.o.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stack.dir/LinearList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Link the executable Stack.exe
+
+build Stack.exe: C_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/LinearList/Stack.c.o
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--enable-auto-import
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Stack.exe
+  TARGET_IMPLIB = libStack.dll.a
+  TARGET_PDB = Stack.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -134,7 +200,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build DSA: phony DSA.exe
 
+build Queue: phony Queue.exe
+
 build SequenceList: phony SequenceList.exe
+
+build Stack: phony Stack.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +214,7 @@ build SequenceList: phony SequenceList.exe
 #############################################
 # Folder: /cygdrive/c/Users/沈原灏/Desktop/大二上的资料/数据结构/DSA/cmake-build-debug
 
-build all: phony DSA.exe SequenceList.exe
+build all: phony DSA.exe SequenceList.exe Queue.exe Stack.exe
 
 # =============================================================================
 # Built-in targets
