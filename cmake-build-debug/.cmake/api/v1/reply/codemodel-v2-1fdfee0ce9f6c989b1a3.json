@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DSA",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DSA::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DSA-Debug-b56729a18da7e029bca1.json",
+					"name" : "DSA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SequenceList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SequenceList-Debug-3601941e1a4b51b5fac7.json",
+					"name" : "SequenceList",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/cygdrive/c/Users/\u6c88\u539f\u704f/Desktop/\u5927\u4e8c\u4e0a\u7684\u8d44\u6599/\u6570\u636e\u7ed3\u6784/DSA/cmake-build-debug",
+		"source" : "/cygdrive/c/Users/\u6c88\u539f\u704f/Desktop/\u5927\u4e8c\u4e0a\u7684\u8d44\u6599/\u6570\u636e\u7ed3\u6784/DSA"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
